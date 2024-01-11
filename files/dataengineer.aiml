@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+			<category>
+        <pattern>dataengineer</pattern>
+        <template>you sound like a good fit for a Data Engineer!
+        <br></br><br></br>
+A data engineer is responsible for building data pipelines to bring together information from different source systems for analytical or operational uses.            <br></br> <br></br>
+     
+            <button>
+                <text>Click here to go back to the start of finding a new IT job path</text>
+                <postback>Find Jobs</postback>
+            </button>
+             <button>
+                <text>Click here to end the conversation</text>
+                <postback>end</postback>
+            </button>
+  
+        </template>
+    </category>
+
+<category><pattern>data engineer </pattern><template><srai>DATAENGINEER</srai></template></category>
+
+</aiml>

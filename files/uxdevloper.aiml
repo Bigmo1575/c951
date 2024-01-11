@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+		<category>
+        <pattern>ux devloper</pattern>
+        <template>you sound like a good fit for a UX devloper!
+        <br></br><br></br>
+UX design is the process of creating products that provide meaningful and relevant experiences to users. It involves designing the entire process of acquiring and integrating the product, including aspects of branding, design, usability, and function.            <br></br> <br></br>
+         
+            <button>
+                <text>Click here to go back to the start of finding a new IT job path</text>
+                <postback>Find Jobs</postback>
+            </button>
+             <button>
+                <text>Click here to end the conversation</text>
+                <postback>end</postback>
+            </button>
+        </template>
+    </category>
+
+<category><pattern>ux</pattern><template><srai>UX DEVLOPER</srai></template></category>
+
+</aiml>

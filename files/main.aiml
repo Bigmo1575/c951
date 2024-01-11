@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+     
+   <category>
+        <pattern>hello *</pattern>
+        <template>Welcome! I am the student career bot for the department of Computer Science. To get started please select from the opitions below: 
+            <button>
+                <text>Learn about and help choose a top IT Jobs</text>
+                <postback>Find Jobs</postback>
+            </button>
+            <button>
+                <text>No help needed</text>
+                <postback>end</postback>
+            </button>    
+        </template>
+    </category>
+
+<category><pattern>hey</pattern><template><srai>HELLO *</srai></template></category>
+
+
+<category><pattern>hi</pattern><template><srai>HELLO *</srai></template></category>
+
+    
+    
+     <category>
+        <pattern>end</pattern>
+        <template>Goodbye
+    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Find Jobs</pattern>
+        <template>We will now ask you some questions and give suggestions on career paths.
+        <br></br><br></br>
+        Which do you prefer?
+            <button>
+                <text>Making things look nice</text>
+                <postback>frontEnd1</postback>
+            </button>
+            <button>
+                <text>Building functionality</text>
+                <postback>backEnd1</postback>
+            </button>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>frontEnd1</pattern>
+        <template> Which do you Prefer?  
+            <button>
+                <text>How a website looks nice on both my pc and my phone </text>
+                <postback>frontEnd2</postback>
+            </button>
+            <button>
+                <text>How well the graph on the website got me to understand the message</text>
+                <postback>dataAnalyst1</postback>
+            </button>
+        </template>
+    </category>
+    
+    // front end
+        <category>
+        <pattern>frontEnd2</pattern>
+        <template> Which do you prefer?
+            <button>
+                <text>The visual effects of the website</text>
+                <postback>Frontend developer</postback>
+            </button>
+            <button>
+                <text>The design of the visuals on a website</text>
+                <postback>ux devloper</postback>
+            </button>
+        </template>
+    </category>
+    
+         <category>
+        <pattern>backEnd1</pattern>
+        <template> Which do you Prefer?  
+            <button>
+                <text>How a website operatings with servers, other applications and databases </text>
+                <postback>backend2</postback>
+            </button>
+            <button>
+                <text>How the data used for applications get built and made ready for use.</text>
+                <postback>dataengineer</postback>
+            </button>
+        </template>
+    </category>
+    
+
+   
+
+</aiml>
